@@ -1,0 +1,6 @@
+print ("Dia: R$100,00")
+print ("Km: R$0.50")
+kmsPercorrido= float(input("Informe quantos Kms foram percorridos: "))
+diasAlugados= float(input("Informe por quantos dias o carro foi alugado: "))
+total= (diasAlugados*100) + (kmsPercorrido*0.50)
+print(f"O valor total do aluguel é R${total}")
